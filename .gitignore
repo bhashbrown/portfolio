@@ -78,6 +78,7 @@ yarn.lock
 
 # Next.js build output
 .next
+out
 
 # Nuxt.js build / generate output
 .nuxt
@@ -112,20 +113,11 @@ dist
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
 # production
 /build
 
 # misc
 .DS_Store
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # local env files
 .env.local
