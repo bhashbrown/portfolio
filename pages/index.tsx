@@ -8,7 +8,8 @@ export default function Home() {
 				<Head>
 					<title>B-Hash&apos;s Portfolio</title>
 				</Head>
-				<h1>B-Hash says hi</h1>
+				<h1>B-Hash</h1>
+				<h2>Brian Makio Hayashi</h2>
 			</>
 		</Layout>
 	);
