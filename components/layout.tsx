@@ -12,6 +12,9 @@ export default function Layout({ children }) {
 					name="description"
 					content="B-Hash's software engineering portfolio"
 				/>
+				<meta name="og:image" content="/bhash-logo.png" />
+				<meta name="og:title" content="B-Hash's Portfolio" />
+				<meta name="twitter:card" content="summary_large_image" />
 			</Head>
 			<main>{children}</main>
 		</div>
