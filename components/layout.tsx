@@ -7,7 +7,7 @@ export default function Layout({ children }) {
 	return (
 		<div>
 			<Head>
-				<link rel="icon" href="/bhash_logo.ico" />
+				<link rel="icon" href="/bhash_logo_outline.ico" />
 				<meta
 					name="description"
 					content="B-Hash's software engineering portfolio"

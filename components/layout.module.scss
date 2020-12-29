@@ -31,12 +31,13 @@
 }
 
 .horizontalList {
-	display: inline-block;
+	display: block;
 	list-style: none;
 	margin-right: 3rem;
-	border: solid 3px black;
+	float: right;
+	// border: solid 3px black;
 	li {
 		display: inline;
-		// border: solid 3px black;
+		padding: 1rem;
 	}
 }
