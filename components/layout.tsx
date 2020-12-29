@@ -20,7 +20,7 @@ export default function Layout({ children }) {
 			<Link href="/">
 				<a>
 					<img
-						src="/bhash-logo.svg"
+						src="/bhash-logo-outline.svg"
 						className={styles.headerImage}
 						alt="B-Hash Logo"
 					/>
