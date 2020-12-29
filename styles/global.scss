@@ -3,10 +3,10 @@ $hover-text: #3a0ca3;
 $highlighted-text: #f72585;
 $main-bg: #3c096c;
 
-// $main-text: #001427;
+// $main-text: #f1faee;
 // $hover-text: #3a0ca3;
-// $highlighted-text: #f4d58d;
-// $main-bg: #708d81;
+// $highlighted-text: #f725c3;
+// $main-bg: #1e096c;
 
 html,
 body {
@@ -17,7 +17,6 @@ body {
 	line-height: 1.6;
 	font-size: 18px;
 	color: $main-text;
-	/* background-color: rgb(53, 53, 53); */
 	background-color: $main-bg;
 }
 
@@ -26,7 +25,6 @@ body {
 }
 
 a {
-	/* color: #0070f3; */
 	color: $main-text;
 	text-decoration: none;
 }
@@ -38,7 +36,6 @@ a {
 // }
 
 li:hover {
-	// text-decoration: underline;
 	background-color: $highlighted-text;
 }
 
