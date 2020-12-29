@@ -1,6 +1,12 @@
 $main-text: #f1faee;
-$hover-text: #1d3557;
-$highlighted-text: #e63946;
+$hover-text: #3a0ca3;
+$highlighted-text: #f72585;
+$main-bg: #3c096c;
+
+// $main-text: #001427;
+// $hover-text: #3a0ca3;
+// $highlighted-text: #f4d58d;
+// $main-bg: #708d81;
 
 html,
 body {
@@ -12,7 +18,7 @@ body {
 	font-size: 18px;
 	color: $main-text;
 	/* background-color: rgb(53, 53, 53); */
-	background-color: #457b9d;
+	background-color: $main-bg;
 }
 
 * {
@@ -26,14 +32,13 @@ a {
 }
 
 // a:hover {
-// 	text-decoration: underline;
+// 	// text-decoration: underline;
 // 	color: $hover-text;
-// 	background-color: $highlighted-text;
+// 	// background-color: $highlighted-text;
 // }
 
 li:hover {
 	// text-decoration: underline;
-	// color: $hover-text;
 	background-color: $highlighted-text;
 }
 
