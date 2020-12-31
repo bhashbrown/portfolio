@@ -28,8 +28,8 @@ export default function Layout({ children }) {
 				</a>
 			</Link>
 			{/* <nav className={styles.table}> */}
-			<NavBtn />
 			<ul className={styles.horizontalList}>
+				<NavBtn />
 				<li>
 					<Link href="/">
 						<a>Home</a>
