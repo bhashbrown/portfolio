@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { mainText, highlightedBtn } from '../styles/colors';
-// import styles from './layout.module.scss';
 
 export default function NavBtn({ inputText, uri }) {
 	return (
@@ -24,8 +23,10 @@ export default function NavBtn({ inputText, uri }) {
 				}
 
 				button:hover {
-					background-color: ${highlightedBtn};
-					transition: 0.2s;
+					color: ${highlightedBtn};
+					text-decoration: underline;
+					cursor: pointer;
+					transition: 0.4s;
 				}
 			`}</style>
 			<Link href={uri} passHref>

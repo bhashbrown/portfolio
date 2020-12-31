@@ -3,10 +3,38 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from './layout.module.scss';
 import NavBtn from './NavBtn';
+import { mainText, mainBG } from '../styles/colors';
 
 export default function Layout({ children }) {
 	return (
 		<div>
+			<style jsx global>{`
+				html,
+				body {
+					padding: 0;
+					margin: 0;
+					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+						Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+					line-height: 1.6;
+					font-size: 18px;
+					color: ${mainText};
+					background-color: ${mainBG};
+				}
+
+				* {
+					box-sizing: border-box;
+				}
+
+				a {
+					color: ${mainText};
+					text-decoration: none;
+				}
+
+				img {
+					max-width: 100%;
+					display: block;
+				}
+			`}</style>
 			<Head>
 				<link rel="icon" href="/bhash_logo_outline.ico" />
 				<meta
