@@ -2,6 +2,7 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from './layout.module.scss';
+import NavBtn from './NavBtn';
 
 export default function Layout({ children }) {
 	return (
@@ -27,6 +28,7 @@ export default function Layout({ children }) {
 				</a>
 			</Link>
 			{/* <nav className={styles.table}> */}
+			<NavBtn />
 			<ul className={styles.horizontalList}>
 				<li>
 					<Link href="/">

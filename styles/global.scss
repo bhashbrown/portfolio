@@ -1,12 +1,12 @@
-$main-text: #f1faee;
-$hover-text: #3a0ca3;
-$highlighted-text: #f72585;
-$main-bg: #3c096c;
-
 // $main-text: #f1faee;
 // $hover-text: #3a0ca3;
-// $highlighted-text: #f725c3;
-// $main-bg: #1e096c;
+// $highlighted-text: #f72585;
+// $main-bg: #3c096c;
+
+$main-text: #f1faee;
+$hover-text: #3a0ca3;
+$highlighted-text: #e63946;
+$main-bg: #1d3557;
 
 html,
 body {
@@ -37,6 +37,7 @@ a {
 
 li:hover {
 	background-color: $highlighted-text;
+	transition: 0.2s;
 }
 
 img {
