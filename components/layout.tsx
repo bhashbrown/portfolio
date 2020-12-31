@@ -27,29 +27,13 @@ export default function Layout({ children }) {
 					/>
 				</a>
 			</Link>
-			{/* <nav className={styles.table}> */}
-			<ul className={styles.horizontalList}>
-				<NavBtn />
-				<li>
-					<Link href="/">
-						<a>Home</a>
-					</Link>
-				</li>
-				<li>
-					<Link href="/">
-						<a>About</a>
-					</Link>
-				</li>
-				<li>
-					<Link href="/">
-						<a>Open Source Projects</a>
-					</Link>
-				</li>
-				<li>
-					<a href="https://github.com/bhayashi">GitHub</a>
-				</li>
-			</ul>
-			{/* </nav> */}
+			<nav className={styles.horizontalList}>
+				<NavBtn inputText="BHash" uri="/house" />
+				<NavBtn inputText="Home" uri="/" />
+				<NavBtn inputText="About" uri="/" />
+				<NavBtn inputText="Open Source Projects" uri="/" />
+				<NavBtn inputText="GitHub" uri="https://github.com/bhayashi" />
+			</nav>
 			{/* </header> */}
 			<main className={styles.container}>{children}</main>
 		</div>
