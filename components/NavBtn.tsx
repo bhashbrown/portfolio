@@ -26,7 +26,7 @@ export default function NavBtn({ inputText, uri }) {
 					color: ${highlightedBtn};
 					text-decoration: underline;
 					cursor: pointer;
-					transition: 0.4s;
+					transition: 0.3s;
 				}
 			`}</style>
 			<Link href={uri} passHref>
