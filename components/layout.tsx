@@ -15,8 +15,7 @@ export default function Layout({ children }) {
 					margin: 0;
 					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 						Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-					line-height: 1.6;
-					font-size: 18px;
+					font-size: 1.1rem;
 					color: ${mainText};
 					background-color: ${mainBG};
 				}
@@ -63,7 +62,8 @@ export default function Layout({ children }) {
 				<NavBtn inputText="GitHub" uri="https://github.com/bhayashi" />
 			</nav>
 			{/* </header> */}
-			<main className={styles.container}>{children}</main>
+			{/* <main className={styles.container}>{children}</main> */}
+			<main>{children}</main>
 		</div>
 	);
 }

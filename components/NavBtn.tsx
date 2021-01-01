@@ -18,7 +18,7 @@ export default function NavBtn({ inputText, uri }) {
 					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 						Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 					line-height: 1.6;
-					font-size: 18px;
+					font-size: 1.1rem;
 					outline: none;
 				}
 
