@@ -85,9 +85,9 @@ export default function Layout({ children }) {
 				</a>
 			</Link>
 			<nav className={styles.horizontalList}>
-				<NavBtn inputText="BHash" uri="/house" />
 				<NavBtn inputText="Home" uri="/" />
 				<NavBtn inputText="About" uri="/" />
+				<NavBtn inputText="Video Production" uri="/video" />
 				<NavBtn inputText="Open Source Projects" uri="/" />
 				<NavBtn inputText="GitHub" uri="https://github.com/bhayashi" />
 			</nav>
