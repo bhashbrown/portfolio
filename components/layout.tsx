@@ -5,9 +5,39 @@ import styles from './layout.module.scss';
 import NavBtn from './NavBtn';
 import { mainText, mainBG } from '../styles/colors';
 
+// const globalStyle = `
+// html,
+// body {
+// 	padding: 0;
+// 	margin: 0;
+// 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+// 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+// 	font-size: 1.1rem;
+// 	color: ${mainText};
+// 	background-color: ${mainBG};
+// }
+
+// * {
+// 	box-sizing: border-box;
+// }
+
+// a {
+// 	color: ${mainText};
+// 	text-decoration: none;
+// }
+
+// img {
+// 	max-width: 100%;
+// 	display: block;
+// }
+// `;
+
 export default function Layout({ children }) {
 	return (
 		<div>
+			{/* <style jsx global>
+				{globalStyle}
+			</style> */}
 			<style jsx global>{`
 				html,
 				body {
